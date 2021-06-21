@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BallBalance/MainScene.unity
+    guid: 39de0e08c76238240aa1bf9602eb38dc
   m_configObjects: {}

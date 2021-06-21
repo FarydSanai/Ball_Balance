@@ -22,7 +22,7 @@ namespace BallBalance
         private Quaternion Rotation;
         private void Update()
         {
-            HandlePlayerInput();
+            HandlePlatformRotation();
             if (BallIsFall())
             {
                 PopupWindowControl.Instance.EnableTryAgain();
@@ -36,7 +36,7 @@ namespace BallBalance
             }
             return false;
         }
-        private void HandlePlayerInput()
+        private void HandlePlatformRotation()
         {
             DirectionValue = playerInput.actions[PlayerActions.Rotate.ToString()].ReadValue<Vector2>();
             Rotation = Quaternion.Euler(DirectionValue.x * RotationSensitivity * Time.deltaTime,
