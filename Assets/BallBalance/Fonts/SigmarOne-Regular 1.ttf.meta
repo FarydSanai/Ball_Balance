@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f2e6711b1e772ab479f9e65c74d30555
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sigmar One
+  fontNames:
+  - Sigmar One
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fd7a6d21a4e9c6c48b3f9a9f0e49db14, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
