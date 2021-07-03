@@ -10,6 +10,7 @@ namespace BallBalance
     public class PlatformControl : MonoBehaviour
     {
         private const float MaxRotaion = 0.4f;
+        private float My;
 
         [SerializeField]
         private GameObject Ball;
